@@ -27,8 +27,8 @@ export const loginUser = (email, password) => {
 
         dispatch(loginUserSuccess(token, userId));
 
-        //dispatch(actions.autoLogoutAfterMillisec(expiresIn * 1000));
-        dispatch(actions.autoLogoutAfterMillisec(5000));
+        dispatch(actions.autoLogoutAfterMillisec(expiresIn * 1000));
+        //dispatch(actions.autoLogoutAfterMillisec(5000));
       })
       .catch((err) => {
         dispatch(loginUserError(err));

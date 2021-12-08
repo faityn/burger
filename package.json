@@ -2,7 +2,7 @@
   "name": "burgernew",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://faityn.github.io/burgernew",
+  "homepage": "https://faityn.github.io/burger",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
